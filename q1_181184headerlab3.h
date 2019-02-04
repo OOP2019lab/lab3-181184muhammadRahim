@@ -14,8 +14,8 @@ struct GitHubUser
 	string *qualification_level;
 
 };
-void setEduBckGrnd(GitHubUser &user);
-bool usernameexists(GitHubUser* arr, int size, string Username, int index);
+void setEduBckGrnd(GitHubUser &user);//for setting educational background
+bool usernameexists(GitHubUser* arr, int size, string Username, int index);//for verification of unique user name
 GitHubUser* Searchuser(GitHubUser*user, int size, string Username);
 bool Comparison(GitHubUser s, GitHubUser p) //compare two github users
 {
